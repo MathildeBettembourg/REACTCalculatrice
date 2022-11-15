@@ -12,10 +12,10 @@ const Card = ({ title, body, footer, buttonLabel, buttonAction }: CardProps) => 
                 {/* //le footer est optionnel... */}
                 {/* si la premiere commande fonctionne on passe à la seconde qui est apres le && */}
                 {footer &&
-                <p className="card-footer">{footer}</p>}
-                
-                { buttonLabel &&
-                <button onClick={buttonAction}>{buttonLabel}</button>}
+                    <p className="card-footer">{footer}</p>}
+
+                {buttonLabel &&
+                    <button onClick={buttonAction}>{buttonLabel}</button>}
             </div>
         </>
     )
