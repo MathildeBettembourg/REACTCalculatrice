@@ -6,7 +6,7 @@ const Card = ({ title, body, footer, buttonLabel, buttonAction }: CardProps) => 
     return (
         <>
             <div >
-                <p>Card</p>
+                <p>Card2</p>
                 <p className="card-title">{title}</p>
                 <p className="card-body">{body}</p>
                 {/* //le footer est optionnel... */}
