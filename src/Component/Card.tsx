@@ -1,12 +1,12 @@
 import React from "react";
 import CardProps from "./Card.type";
+import './Card.css'
 
 
 const Card = ({ title, body, footer, buttonLabel, buttonAction }: CardProps) => {
     return (
         <>
-            <div >
-                <p>Card2</p>
+            <div className="card light">
                 <p className="card-title">{title}</p>
                 <p className="card-body">{body}</p>
                 {/* //le footer est optionnel... */}
